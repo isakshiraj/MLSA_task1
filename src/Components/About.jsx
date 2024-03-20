@@ -24,7 +24,7 @@ const imageAltText = "tech";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "This is Sakshi Raj, a first-year undergraduate student pursuing a B. Tech in Electronics and Communication Engineering-Artificial Intelligence (ECE-AI) at the Indira Gandhi Delhi Technical University for Women (IGDTUW). I'm eager to contribute my skills and knowledge to solve complex problems and make a positive impact in the world of technology.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I’m an avid learner, always willing to learn and experiment with new things. I have qualities like sincerity, friendliness, open-mindedness and responsibility towards work. I have very good teamwork coordination as well as leadership qualities. Also, I have good communication skills and want to enhance them. I believe that I have the knowledge, skills, confidence, determination, dedication, discipline and positive attitude to positively impact my chosen perspectives. I might not know everything but I can assure you that I will find the most effective possible solutions.";
 
 const About = () => {
   return (
