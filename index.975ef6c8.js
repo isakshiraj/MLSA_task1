@@ -27087,8 +27087,8 @@ var _stylesCss = require("./styles.css");
  *
  * If you don't have one of the social sites listed, leave it as an empty string.
  */ const siteProps = {
-    name: "Sakshi Raj",
-    title: "Student abassador",
+    name: "SAKSHI RAJ",
+    title: "AI ML Intern | MLSA Student Ambassador | ECEAI IGDTUW'26",
     email: "sakshi.raj1@studentambassadors.com",
     gitHub: "https://github.com/isakshiraj",
     instagram: "",
@@ -27177,9 +27177,9 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
  *
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
- */ var _techJpg = require("../images/tech.jpg");
-var _techJpgDefault = parcelHelpers.interopDefault(_techJpg);
-const imageAltText = "tech";
+ */ var _tableJpg = require("../images/table.jpg");
+var _tableJpgDefault = parcelHelpers.interopDefault(_tableJpg);
+const imageAltText = "table";
 /**
  * Sort description that expands on your title on the Home component.
  */ const description = "This is Sakshi Raj, a first-year undergraduate student pursuing a B. Tech in Electronics and Communication Engineering-Artificial Intelligence (ECE-AI) at the Indira Gandhi Delhi Technical University for Women (IGDTUW). I'm eager to contribute my skills and knowledge to solve complex problems and make a positive impact in the world of technology.";
@@ -27187,12 +27187,12 @@ const imageAltText = "tech";
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */ const skillsList = [
-    "Web design",
-    "User experience",
-    "Inclusive design",
-    "Focus group testing",
-    "Mobile user interfaces",
-    "Graphic design", 
+    "Data Structures & Algorithms",
+    "HTML, CSS, JS",
+    "SQL",
+    "AI, ML",
+    "Git & Github",
+    "C, C++, Python", 
 ];
 /**
  * Use this to give more information about what you are passionate about,
@@ -27206,7 +27206,7 @@ const About = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                 className: "background",
-                src: (0, _techJpgDefault.default),
+                src: (0, _tableJpgDefault.default),
                 alt: imageAltText
             }, void 0, false, {
                 fileName: "src/Components/About.jsx",
@@ -27300,7 +27300,7 @@ $RefreshReg$(_c, "About");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/tech.jpg":"9Et6w"}],"gkKU3":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/table.jpg":"8SzUh"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -27450,8 +27450,8 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"react-refresh/runtime":"786KC"}],"9Et6w":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "tech.f4cbef3a.jpg" + "?" + Date.now();
+},{"react-refresh/runtime":"786KC"}],"8SzUh":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "table.4d259a8c.jpg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
 "use strict";
@@ -28622,9 +28622,9 @@ var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
  *
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
- */ var _robotJpg = require("../images/robot.jpg");
-var _robotJpgDefault = parcelHelpers.interopDefault(_robotJpg);
-const imageAltText = "A robot";
+ */ var _workspaceJpg = require("../images/workspace.jpg");
+var _workspaceJpgDefault = parcelHelpers.interopDefault(_workspaceJpg);
+const imageAltText = "workspace";
 const Home = ({ name , title  })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         id: "home",
@@ -28632,7 +28632,7 @@ const Home = ({ name , title  })=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                 className: "background",
-                src: (0, _robotJpgDefault.default),
+                src: (0, _workspaceJpgDefault.default),
                 alt: ""
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
@@ -28715,11 +28715,11 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/robot.jpg":"j79uK"}],"b5nCi":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/workspace.jpg":"GINCp"}],"b5nCi":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "down-arrow.1037091f.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"j79uK":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "robot.532a3b6f.jpg" + "?" + Date.now();
+},{"./helpers/bundle-url":"lgJ39"}],"GINCp":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "workspace.17b1a431.jpg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lCaEt":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$ed0d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
@@ -28749,9 +28749,9 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
  *
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
- */ var _machineJpg = require("../images/machine.jpg");
-var _machineJpgDefault = parcelHelpers.interopDefault(_machineJpg);
-const imageAltText = "Machine";
+ */ var _techJpg = require("../images/tech.jpg");
+var _techJpgDefault = parcelHelpers.interopDefault(_techJpg);
+const imageAltText = "tech";
 /**
  * Project list
  *
@@ -28760,7 +28760,7 @@ const imageAltText = "Machine";
  */ const projectList = [
     {
         title: "My Portfolio",
-        description: "I made this portfolio so that people can connnect with me easily",
+        description: "Presents my work in virtually engaging format. Provides comprehensive overview of my skills and proficiency",
         url: "https://isakshiraj.github.io/Portfolio/"
     },
     {
@@ -28807,7 +28807,7 @@ const Portfolio = ()=>{
                             alignSelf: "center"
                         },
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: (0, _machineJpgDefault.default),
+                            src: (0, _techJpgDefault.default),
                             style: {
                                 height: "90%",
                                 width: "100%",
@@ -28890,8 +28890,8 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/machine.jpg":"aTMgk"}],"aTMgk":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "machine.ce2beccf.jpg" + "?" + Date.now();
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/tech.jpg":"9Et6w"}],"9Et6w":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "tech.f4cbef3a.jpg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
 
