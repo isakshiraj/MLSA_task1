@@ -16,9 +16,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "https://pixabay.com/vectors/robot-machine-technology-science-312566/";
+import image from "../images/table.jpg";
 
-const imageAltText = "tech";
+const imageAltText = "table";
 
 /**
  * Sort description that expands on your title on the Home component.
@@ -31,12 +31,12 @@ const description =
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Data Structures & Algorithms",
+  "HTML, CSS, JS",
+  "SQL",
+  "AI, ML",
+  "Git & Github",
+  "C, C++, Python",
 ];
 
 /**

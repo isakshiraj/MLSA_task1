@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/machine.jpg";
+import image from "../images/tech.jpg";
 
-const imageAltText = "Machine";
+const imageAltText = "tech";
 
 /**
  * Project list
@@ -33,7 +33,7 @@ const projectList = [
   {
     title: "My Portfolio",
     description:
-      "I made this portfolio so that people can connnect with me easily",
+      "Presents my work in virtually engaging format. Provides comprehensive overview of my skills and proficiency",
     url: "https://isakshiraj.github.io/Portfolio/",
   },
   {
